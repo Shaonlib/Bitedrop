@@ -13,5 +13,5 @@ export default withAuth(
 )
 
 export const config = {
-  matcher: ['/share/:path*', '/profile/:path*', '/api/listings/*/claim'],
+  matcher: ['/share/:path*', '/profile/:path*'],
 }
